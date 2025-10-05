@@ -31,7 +31,7 @@ export const InputNode = ({ id, data }) => {
       nodeId={id}
       data={data}
       title="Input"
-      width={220}
+      width={240}
       height={110}
       handles={[{ type: 'source', position: Position.Right, id: `${id}-value` }]}
       fields={fields}

@@ -28,7 +28,7 @@ export const OutputNode = ({ id, data }) => {
       nodeId={id}
       data={data}
       title="Output"
-      width={220}
+      width={240}
       height={120}
       handles={[{ type: 'target', position: Position.Left, id: `${id}-value` }]}
       fields={fields}
